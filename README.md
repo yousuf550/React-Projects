@@ -1,6 +1,4 @@
 # React-Projects
-1. Movie Land
-URL: movie-land-app.surge.sh
-3. Expense Tracker
-URL: expense-tracker-basic.surge.sh
+1. [Movie Land App](https://movie-land-app.surge.sh/)
+2. [Expense Tracker App] (https://expense-tracker-basic.surge.sh/)
  
