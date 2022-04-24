@@ -1,0 +1,103 @@
+.header {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 25px;
+}
+
+.card-form {
+  width: 450px;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgb(0, 0, 0, 0.3);
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-group {
+  margin: 5px 6px;
+  padding: 4px 5px;
+}
+
+.card-group label {
+  font-weight: 600;
+  display: block;
+  margin: 4px;
+}
+
+.card-group .card-control {
+  border: 2px solid #ecf0f1;
+  border-radius: 2px;
+  width: 98%;
+  padding: 8px 0;
+  padding-left: 5px;
+  font-size: 14px;
+  background-color: #fff;
+}
+
+.card-group select {
+  margin-top: 0;
+  border: 2px solid #ecf0f1;
+  border-radius: 2px;
+  padding: 8px 0;
+  padding-left: 5px;
+  font-size: 14px;
+  background-color: #fff;
+  width: 100%;
+
+
+}
+
+.card-group input:focus {
+  outline: 0;
+  border-color: rgb(2, 2, 18);
+  ;
+}
+
+.add-card-btn {
+  cursor: pointer;
+  background-color: rgb(2, 2, 18);
+  border: 2px solid rgb(2, 2, 18);
+  border-radius: 5px;
+  color: white;
+  display: block;
+  font-size: 16px;
+  padding: 8px;
+  width: 100%;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  margin: 15px;
+}
+
+.app-container table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.app-container th,
+td {
+  border: 1px solid #ffff;
+  text-align: center;
+  padding: 6px;
+  font-size: 16px;
+}
+
+.app-container th {
+  background-color: rgb(2, 2, 18);
+  color: white;
+}
+
+.app-container td {
+  background-color: rgb(242, 249, 255);
+}
+
